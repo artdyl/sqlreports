@@ -1,0 +1,12 @@
+reporting\sqlReporting\ReportExtractorFactory.class
+reporting\sqlReporting\ReportProcessor.class
+reporting\sqlReporting\XMLParser.class
+reporting\sqlReporting\Configuration.class
+reporting\sqlReporting\CsvWriterAplyQuotestoAllOff.class
+reporting\sqlReporting\Attachment.class
+reporting\sqlReporting\InvalidReportConfException.class
+reporting\sqlReporting\CsvReportExtractor.class
+reporting\sqlReporting\ReportConfiguration.class
+reporting\sqlReporting\ReportExtractor.class
+reporting\sqlReporting\AbstractReportExtractor.class
+reporting\sqlReporting\MailSender.class

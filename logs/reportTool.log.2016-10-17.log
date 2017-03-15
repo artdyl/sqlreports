@@ -1,0 +1,119 @@
+2016-10-17 14:08:34,582 [INFO ] - Parsing report configuration from D:\SqlReportsTool\Ver2\report_conf.xml file.
+2016-10-17 14:08:34,744 [INFO ] - Report configuration sucesfully parsed from D:\SqlReportsTool\Ver2\report_conf.xml file.
+2016-10-17 14:08:34,744 [INFO ] - Run mode set to "Generete and send reports".
+2016-10-17 14:08:34,759 [INFO ] - Parsing global configuration parameters from D:\SqlReportsTool\Ver2\config.xml file.
+2016-10-17 14:08:34,786 [INFO ] - Global configuration parameters parsed from D:\SqlReportsTool\Ver2\config.xml file.
+2016-10-17 14:08:34,786 [INFO ] - Connecting to TEST database.
+2016-10-17 14:08:34,786 [INFO ] - Using jdbc:oracle:thin:@localhost:1521:ORCDYL connection string.
+2016-10-17 14:08:35,750 [INFO ] - Decrypting database password
+2016-10-17 14:08:36,504 [INFO ] - Connected to TEST database.
+2016-10-17 14:08:36,505 [INFO ] - Reading SQL query from D:\SqlReportsTool\Ver2\some.sql
+2016-10-17 14:08:36,673 [INFO ] - Executing gereted query on TEST database.
+2016-10-17 14:08:36,818 [INFO ] - Sql query executed on TEST database.
+2016-10-17 14:08:36,818 [INFO ] - Writing report to file D:/SqlReportsTool/Ver2\report_name_2016-10-17_140834.csv
+2016-10-17 14:08:36,864 [INFO ] - D:/SqlReportsTool/Ver2\report_name_2016-10-17_140834.csv saved.
+2016-10-17 14:08:36,866 [INFO ] - Connecting to TEST database.
+2016-10-17 14:08:36,866 [INFO ] - Using jdbc:oracle:thin:@localhost:1521:ORCDYL connection string.
+2016-10-17 14:08:36,866 [INFO ] - Decrypting database password
+2016-10-17 14:08:36,937 [INFO ] - Connected to TEST database.
+2016-10-17 14:08:36,937 [INFO ] - Reading SQL query from D:\SqlReportsTool\Ver2\some2.sql
+2016-10-17 14:08:36,938 [INFO ] - Executing gereted query on TEST database.
+2016-10-17 14:08:36,941 [INFO ] - Sql query executed on TEST database.
+2016-10-17 14:08:36,942 [INFO ] - Writing report to file D:/SqlReportsTool/Ver2\report_name2.csv
+2016-10-17 14:08:36,943 [INFO ] - D:/SqlReportsTool/Ver2\report_name2.csv saved.
+2016-10-17 14:08:36,988 [INFO ] - Creating email.
+2016-10-17 14:08:36,989 [INFO ] - Set email from address as "java_too@mail.com"
+2016-10-17 14:08:36,990 [INFO ] - Set email recipients as "adyl@luxoft.com,yurii.zozulya@luxoft.com"
+2016-10-17 14:08:36,990 [INFO ] - Set email recipients in CC as "dyl@luxoft.com,yurii.zozulya@luxoft.com"
+2016-10-17 14:08:36,997 [INFO ] - Set email subject as "Java Report"
+2016-10-17 14:08:37,009 [INFO ] - adding attachment "report_name_2016-10-17_140834.csv"
+2016-10-17 14:08:37,010 [INFO ] - adding attachment "report_name2.csv"
+2016-10-17 14:08:38,046 [ERROR] - Error during creation/genereting email:
+com.sun.mail.util.MailConnectException: Couldn't connect to host, port: localhost, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection refused: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2100)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:699)
+	at javax.mail.Service.connect(Service.java:345)
+	at javax.mail.Service.connect(Service.java:226)
+	at javax.mail.Service.connect(Service.java:175)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at reporting.sqlReporting.MailSender.send(MailSender.java:74)
+	at reporting.sqlReporting.ReportProcessor.main(ReportProcessor.java:21)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:331)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:238)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2066)
+	... 8 more
+2016-10-17 14:10:07,252 [INFO ] - Parsing report configuration from D:\SqlReportsTool\Ver2\report_conf.xml file.
+2016-10-17 14:10:07,288 [INFO ] - Report configuration sucesfully parsed from D:\SqlReportsTool\Ver2\report_conf.xml file.
+2016-10-17 14:10:07,288 [INFO ] - Run mode set to "Generete and send reports".
+2016-10-17 14:10:07,291 [INFO ] - Parsing global configuration parameters from D:\SqlReportsTool\Ver2\config.xml file.
+2016-10-17 14:10:07,303 [INFO ] - Global configuration parameters parsed from D:\SqlReportsTool\Ver2\config.xml file.
+2016-10-17 14:10:07,303 [INFO ] - Connecting to TEST database.
+2016-10-17 14:10:07,303 [INFO ] - Using jdbc:oracle:thin:@localhost:1521:ORCDYL connection string.
+2016-10-17 14:10:07,624 [INFO ] - Decrypting database password
+2016-10-17 14:10:08,211 [INFO ] - Connected to TEST database.
+2016-10-17 14:10:08,211 [INFO ] - Reading SQL query from D:\SqlReportsTool\Ver2\some.sql
+2016-10-17 14:10:08,337 [INFO ] - Executing gereted query on TEST database.
+2016-10-17 14:10:08,400 [INFO ] - Sql query executed on TEST database.
+2016-10-17 14:10:08,401 [INFO ] - Writing report to file D:/SqlReportsTool/Ver2\report_name_2016-10-17_141007.csv
+2016-10-17 14:10:08,451 [INFO ] - D:/SqlReportsTool/Ver2\report_name_2016-10-17_141007.csv saved.
+2016-10-17 14:10:08,453 [INFO ] - Connecting to TEST database.
+2016-10-17 14:10:08,453 [INFO ] - Using jdbc:oracle:thin:@localhost:1521:ORCDYL connection string.
+2016-10-17 14:10:08,453 [INFO ] - Decrypting database password
+2016-10-17 14:10:08,500 [INFO ] - Connected to TEST database.
+2016-10-17 14:10:08,500 [INFO ] - Reading SQL query from D:\SqlReportsTool\Ver2\some2.sql
+2016-10-17 14:10:08,501 [INFO ] - Executing gereted query on TEST database.
+2016-10-17 14:10:08,502 [INFO ] - Sql query executed on TEST database.
+2016-10-17 14:10:08,502 [INFO ] - Writing report to file D:/SqlReportsTool/Ver2\report_name2.csv
+2016-10-17 14:10:08,503 [INFO ] - D:/SqlReportsTool/Ver2\report_name2.csv saved.
+2016-10-17 14:10:08,545 [INFO ] - Creating email.
+2016-10-17 14:10:08,547 [INFO ] - Set email from address as "java_too@mail.com"
+2016-10-17 14:10:08,547 [INFO ] - Set email recipients as "adyl@luxoft.com,yurii.zozulya@luxoft.com"
+2016-10-17 14:10:08,547 [INFO ] - Set email recipients in CC as "dyl@luxoft.com,yurii.zozulya@luxoft.com"
+2016-10-17 14:10:08,554 [INFO ] - Set email subject as "Java Report"
+2016-10-17 14:10:08,566 [INFO ] - adding attachment "report_name_2016-10-17_141007.csv"
+2016-10-17 14:10:08,566 [INFO ] - adding attachment "report_name2.csv"
+2016-10-17 14:10:09,202 [INFO ] - Email sent.
+2016-10-17 14:48:56,008 [INFO ] - Parsing report configuration from D:\SqlReportsTool\Ver2\report_conf.xml file.
+2016-10-17 14:48:56,046 [INFO ] - Report configuration sucesfully parsed from D:\SqlReportsTool\Ver2\report_conf.xml file.
+2016-10-17 14:48:56,046 [INFO ] - Run mode set to "Generete and send reports".
+2016-10-17 14:48:56,054 [INFO ] - Parsing global configuration parameters from D:\SqlReportsTool\Ver2\config.xml file.
+2016-10-17 14:48:56,067 [INFO ] - Global configuration parameters parsed from D:\SqlReportsTool\Ver2\config.xml file.
+2016-10-17 14:48:56,067 [INFO ] - Connecting to TEST database.
+2016-10-17 14:48:56,067 [INFO ] - Using jdbc:oracle:thin:@localhost:1521:ORCDYL connection string.
+2016-10-17 14:48:56,390 [INFO ] - Decrypting database password
+2016-10-17 14:48:56,957 [INFO ] - Connected to TEST database.
+2016-10-17 14:48:56,957 [INFO ] - Reading SQL query from D:\SqlReportsTool\Ver2\some.sql
+2016-10-17 14:48:57,075 [INFO ] - Executing gereted query on TEST database.
+2016-10-17 14:48:57,137 [INFO ] - Sql query executed on TEST database.
+2016-10-17 14:48:57,137 [INFO ] - Writing report to file D:/SqlReportsTool/Ver2\report_name_2016-10-17_144856.csv
+2016-10-17 14:48:57,178 [INFO ] - D:/SqlReportsTool/Ver2\report_name_2016-10-17_144856.csv saved.
+2016-10-17 14:48:57,180 [INFO ] - Connecting to TEST database.
+2016-10-17 14:48:57,181 [INFO ] - Using jdbc:oracle:thin:@localhost:1521:ORCDYL connection string.
+2016-10-17 14:48:57,181 [INFO ] - Decrypting database password
+2016-10-17 14:48:57,219 [INFO ] - Connected to TEST database.
+2016-10-17 14:48:57,220 [INFO ] - Reading SQL query from D:\SqlReportsTool\Ver2\some2.sql
+2016-10-17 14:48:57,220 [INFO ] - Executing gereted query on TEST database.
+2016-10-17 14:48:57,221 [INFO ] - Sql query executed on TEST database.
+2016-10-17 14:48:57,221 [INFO ] - Writing report to file D:/SqlReportsTool/Ver2\report_name2.csv
+2016-10-17 14:48:57,223 [INFO ] - D:/SqlReportsTool/Ver2\report_name2.csv saved.
+2016-10-17 14:48:57,262 [INFO ] - Creating email.
+2016-10-17 14:48:57,264 [INFO ] - Set email from address as "java_too@mail.com"
+2016-10-17 14:48:57,265 [INFO ] - Set email recipients as "adyl@luxoft.com,yurii.zozulya@luxoft.com"
+2016-10-17 14:48:57,265 [INFO ] - Set email recipients in CC as "dyl@luxoft.com,yurii.zozulya@luxoft.com"
+2016-10-17 14:48:57,272 [INFO ] - Set email subject as "Java Report"
+2016-10-17 14:48:57,283 [INFO ] - adding attachment "report_name_2016-10-17_144856.csv"
+2016-10-17 14:48:57,283 [INFO ] - adding attachment "report_name2.csv"
+2016-10-17 14:48:57,379 [INFO ] - Email sent.
