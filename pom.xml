@@ -114,5 +114,11 @@
   	</plugins>
 
   </build>
+<distributionManagement>
+   <snapshotRepository>
+      <id>test</id>
+      <url>http://localhost:8081/nexus/content/repositories/test-repo</url>
+   </snapshotRepository>
+</distributionManagement>
   
 </project>
