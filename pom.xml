@@ -119,10 +119,6 @@
       <id>test</id>
       <url>http://localhost:8081/nexus/content/repositories/test-repo</url>
    </snapshotRepository>
-   <releaseRepository>
-      <id>release</id>
-      <url>http://localhost:8081/nexus/content/repositories/releases</url>
-   </releaseRepository>
 </distributionManagement>
   
 </project>
