@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--	
+XML has five special characters which have special treatment by the XML parser. Instead of actual character use it Decimal alternative representation in Body tag:
+< - &#60;
+> - &#62;
+" - &#34;
+' - &#39;
+& - &#38;
+-->
+
+<report>
+<!-- If there is need to only generete reports without sending them, simply not specify <mail_fields>
+-->
+	<mail_fields>
+	<email_to>adyl@luxoft.com,yurii.zozulya@luxoft.com</email_to>
+	<email_from>java_too@mail.com</email_from> 
+
+	<email_body>This is test java &#38; &#34; report
+	
+	Testing multi line
+	
+	BR
+	Art
+	
+	</email_body>
+	<email_cc>dyl@luxoft.com,yurii.zozulya@luxoft.com</email_cc>
+	<email_subject>Java Report</email_subject>
+	</mail_fields>
+
+<!-- In tag "output_file_name", use (if you need)${date} in order to add date to report name, use (if you need)${time} in order to add time.-->
+	<attachemnts>
+		<attachemnt>
+			<sql_file>D:/SqlReportsTool/Ver2/some.sql</sql_file>
+			<output_file_name>report_name_${date}_${time}</output_file_name>
+			<output_file_type>csv</output_file_type>
+			<csv_separator>167</csv_separator>
+	<applyQuotesToAll>false</applyQuotesToAll>
+		</attachemnt>
+		<attachemnt>
+			<sql_file>D:/SqlReportsTool/Ver2/some2.sql</sql_file>
+			<output_file_name>report_name2</output_file_name>
+			<output_file_type>csv</output_file_type>
+			<csv_separator>§</csv_separator>
+	<applyQuotesToAll>false</applyQuotesToAll>
+		</attachemnt>
+	</attachemnts>
+
+</report>
