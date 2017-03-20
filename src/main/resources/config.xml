@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+<!-- Databases jdbc urls -->
+<entry key="LNCCA2P">oracle\:somehost\:port/LNCCA2P</entry>
+<entry key="TEST.ALIAS">TEST</entry>
+<entry key="TEST.JDBC">jdbc:oracle:thin:@localhost:1521:ORCDYL</entry>
+
+
+<!-- Credentials for user under which you need to connect -->
+<entry key="USER_NAME">HR</entry>
+<entry key="TEST.PASSWORD">AN0+qdzZByWC37torjb3BQ==</entry>
+
+
+
+<!-- SMTP mail properties -->
+<entry key="SMTP_HOST">localhost</entry>
+<entry key="SMTP_PORT">25</entry>
+
+
+
+<!-- Output Dir path for reports -->
+<entry key="output_dir">D:/SqlReportsTool/Ver2</entry>
+
+
+</properties>
