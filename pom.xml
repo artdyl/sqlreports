@@ -120,10 +120,10 @@
       <url>http://localhost:8081/nexus/content/repositories/test-repo</url>
    </snapshotRepository>
 
-<Repository>
+<repository>
 	<id>release</id>
 	<url>http://10.249.134.37:8081/nexus/content/repositories/releases</url>
-</Repository>
+</repository>
 
 </distributionManagement>
   
