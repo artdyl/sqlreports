@@ -89,7 +89,7 @@
           <descriptorRef>jar-with-dependencies</descriptorRef>
         </descriptorRefs>
                 <finalName>ReportProcessor</finalName>
-        <appendAssemblyId>true</appendAssemblyId>
+        <appendAssemblyId>false</appendAssemblyId>
         					<archive>
 					  <manifest>
 						<mainClass>reporting.sqlReporting.ReportProcessor</mainClass>
