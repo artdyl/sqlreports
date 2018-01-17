@@ -114,11 +114,17 @@
   	</plugins>
 
   </build>
-<distributionManagement>
+ <distributionManagement>
    <snapshotRepository>
-      <id>test</id>
-      <url>http://localhost:8081/nexus/content/repositories/test-repo</url>
+      <id>snapshot</id>
+      <url>http://localhost:8081/repository/maven-snapshots</url>
    </snapshotRepository>
-</distributionManagement>
-  
+
+<repository>
+        <id>release</id>
+        <url>http://localhost:8081/repository/maven-releases</url>
+</repository>
+
+</distributionManagement> 
+
 </project>
