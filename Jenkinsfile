@@ -11,8 +11,7 @@ node {
    stage('Build') {
       // Run the maven build
       if (isUnix()) {
-         sh "cp /home/vagrant/settings.xml '${mvnHome}'"
-         sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean deploy"
+         sh "'${mvnHome}/bin/mvn' -s /var/lib/jenkins/settings.xml -Dmaven.test.failure.ignore clean deploy"
       } else {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
       }
