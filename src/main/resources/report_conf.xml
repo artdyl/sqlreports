@@ -12,8 +12,8 @@ XML has five special characters which have special treatment by the XML parser. 
 <!-- If there is need to only generete reports without sending them, simply not specify <mail_fields>
 -->
 	<mail_fields>
-	<email_to>adyl@luxoft.com,yurii.zozulya@luxoft.com</email_to>
-	<email_from>java_too@mail.com</email_from> 
+	<email_to>adyl@mail.com</email_to>
+	<email_from>java_tool@mail.com</email_from> 
 
 	<email_body>This is test java &#38; &#34; report
 	
@@ -23,7 +23,7 @@ XML has five special characters which have special treatment by the XML parser. 
 	Art
 	
 	</email_body>
-	<email_cc>dyl@luxoft.com,yurii.zozulya@luxoft.com</email_cc>
+	<email_cc>dyl@mail.com</email_cc>
 	<email_subject>Java Report</email_subject>
 	</mail_fields>
 
